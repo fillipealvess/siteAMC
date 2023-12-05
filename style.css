@@ -1,0 +1,56 @@
+body{
+    background-color: #103778;
+
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 25px;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 25rem;
+    justify-content: stretch;
+    background-color: #13678A;
+    margin: 2rem;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+}
+
+div > img{
+    width: 15rem;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}

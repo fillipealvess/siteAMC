@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    background-color: #103778;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 20px;
+    font-family: 'Poppins' sans-serif;
+    font-size: 12px;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 20rem;
+    justify-content: center;
+    background-color:#0E51ED;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    
+}
+
+
+div > img{
+    width: 10rem;
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1250px){
+
+    .item{
+        width: 15rem;
+        justify-content: center;
+        background-color: #0E51ED;
+        padding: 1.5rem;
+        margin: 1rem;
+        border-radius: 25px;
+        text-align: center;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: small;
+        
+    }
+
+}
+
+@media screen and (max-width: 980px){
+
+    .item{
+        width: 10rem;
+        justify-content: center;
+        background-color: #0E51ED;
+        padding: 1.5rem;
+        margin: 1rem;
+        border-radius: 25px;
+        text-align: center;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        
+    }
+
+}
+
+@media screen and (min-width: 1920px){
+
+    .item{
+        width:25rem;
+        justify-content: center;
+        background-color: #0E51ED;
+        padding: 1.5rem;
+        margin: 3rem;
+        border-radius: 25px;
+        text-align: center;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: small;
+        
+    }
+
+}
+
